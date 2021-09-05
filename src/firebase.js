@@ -5,17 +5,7 @@ import "firebase/storage";
 import "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAOlaAqRzIQqUnh2fZfjCvQDlHQZrBX7wo",
-
-  authDomain: "whatsapp-clone-a932a.firebaseapp.com",
-
-  projectId: "whatsapp-clone-a932a",
-
-  storageBucket: "whatsapp-clone-a932a.appspot.com",
-
-  messagingSenderId: "1083909671858",
-
-  appId: "1:1083909671858:web:dd307a1c2df5d73e9cb2ab",
+  //put your firebase config here 
 };
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig);
